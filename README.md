@@ -13,13 +13,19 @@ We had planned on using a Slack bot to initiate the VM clone, application upgrad
 The setup included three NSX ESGs:
 
 Parent ESG served as the P/V Edge
+
 Secondary "Blue" edge connected to the parent
+
 Secondary "Green" edge connected to the parent
 
 Four logical switches:
+
 Blue-Transit
+
 Green-Transit
+
 Blue
+
 Green
 
 Application servers were placed onto the Blue logical switch and their native IP routed down from the parent edge.
